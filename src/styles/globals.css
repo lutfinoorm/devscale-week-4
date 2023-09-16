@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input {
+    @apply w-full border-2 p-2 rounded-lg;
+  }
+  button {
+    @apply text-xs p-2 w-full bg-sky-900 hover:bg-sky-700 rounded-full text-white;
+  }
+}
